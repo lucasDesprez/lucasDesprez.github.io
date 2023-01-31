@@ -1,0 +1,47 @@
+body{
+    background: url('https://imgs.search.brave.com/Suuq_KQNoNNQT78K7QUa0RwDTkXsAFJEvlRAZZcCNDw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzAz/MDEvMDA2NS9maWxl/cy9mYWxsX2JhY2tn/cm91bmRfaW1hZ2Vf/bGFuZHNjYXBlX3Ry/ZWVfbGFrZV9tb3Vu/dGFpbl9zY2VuZV93/ZWJfMjA0OHgyMDQ4/LmpwZz8xNjYxNTcx/NzIwNTI4MTA2Mzgy/Ng');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+input{
+    border: 0px;
+    font-size: 2em;
+    border-radius: 3px;
+    transform: translate(185px,200px);
+    font-family: 'consolas';
+    background: rgba(255, 0, 242, 0.767);
+    border-color: none;
+    color: black;
+    z-index: -1;
+}
+.window{
+    height: 600px;
+    width: 870px;
+    align-items: center;
+    background: rgba(250, 93, 255, 0);
+    transform: translate(250px);
+    border-radius: 35px;
+}
+.valider{
+    font-size: 1.5em;
+    background: rgba(0, 255, 157, 0.593);
+    border-radius: 5px;
+    text-align: center;
+    transform: translate(185px,196px);
+    cursor: pointer;
+    border: 0.25px solid black;
+    transition: 0.5s;
+}
+.info{
+    transform: translate(175px,225px);
+    color: rgb(0, 8, 255);
+    font-size: 25px;
+}
+.valider:hover{
+    background: rgb(68, 255, 0);
+}
+input:hover{
+    transition: 3s;
+    background: cyan;
+}
